@@ -1,5 +1,5 @@
 @echo off
-set SUBSTANDEPAINTER_PATH="D:\Software\Adobe Substance 3D Painter\Adobe Substance 3D Painter.exe"
+set SUBSTANDEPAINTER_PATH="C:\Program Files\Adobe\Adobe Substance 3D Painter\Adobe Substance 3D Painter.exe"
 set "SHELF_PATH=%~dp0shelf"
 
 :: add env variable
