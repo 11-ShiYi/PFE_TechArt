@@ -1,0 +1,18 @@
+// fbx_settings.mel - Unreal Static Mesh FBX Export Settings
+FBXResetExport;
+
+FBXExportSmoothingGroups -v true;
+FBXExportSmoothMesh -v true;
+FBXExportHardEdges -v false;
+
+FBXExportSkins -v false;
+FBXExportShapes -v false;
+
+FBXExportCameras -v false;
+FBXExportLights -v false;
+FBXExportConstraints -v false;
+FBXExportInstances -v false;
+FBXExportInputConnections -v false;
+FBXExportBakeComplexAnimation -v false;
+FBXExportTriangulate -v false;
+FBXExportUseSceneName -v false;
