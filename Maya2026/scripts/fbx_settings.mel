@@ -16,3 +16,6 @@ FBXExportInputConnections -v false;
 FBXExportBakeComplexAnimation -v false;
 FBXExportTriangulate -v false;
 FBXExportUseSceneName -v false;
+
+FBXExportFileVersion -v "FBX202000";
+FBXExportTangents -v true;
