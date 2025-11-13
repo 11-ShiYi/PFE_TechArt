@@ -43,7 +43,11 @@ class MainWindow(QtWidgets.QMainWindow):
             for mesh in mesh_list:
                 cmds.select(cl = 1)
                 cmds.select(mesh)
-                full_path = os.path.join(folder_path, mesh + '.fbx').replace('\\', '/')
+
+                # delete "|" in case a scene has two objects with the same name
+                mesh_name = mesh.split("|")[-1]
+
+                full_path = os.path.join(folder_path, mesh_name + '.fbx').replace('\\', '/')
                 mel.eval('FBXExport -f "{}" -s;'.format(full_path))
                 print("Exported FBX to:", full_path)
         else:
