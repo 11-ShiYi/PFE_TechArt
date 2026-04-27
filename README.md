@@ -10,25 +10,25 @@ The content will continue to evolve as my experience and understanding grow.
 
 ---
 
-## 📂 Docs
+## Docs
 
 This folder contains workflow documentation and production guidelines created during the project.
 
-### 📁 Folder Structure
+### Folder Structure
 - Two folder structure documents for two different projects
 - Largely similar and can be used as general references
 
-### 📁 Naming Convention
+### Naming Convention
 Includes naming standards for:
 - Static Mesh
 - Skeletal Mesh
 - VFX
 
-⚠️ Note:
+Note:
 - The Skeletal Mesh naming convention is tightly coupled with gameplay systems  
   and may have limited reuse value in future projects.
 
-### 📁 Mesh Documentation
+### Mesh Documentation
 - Mesh Guide  
 - Mesh Self-Check List  
 - Nanite Documentation  
@@ -40,7 +40,7 @@ These cover:
 
 ---
 
-## 🎨 Texture Guide
+## Texture Guide
 
 This section includes:
 
@@ -48,14 +48,14 @@ This section includes:
 - Color matching between SP and Unreal using color profile files
 - Use of `.bat` files due to restricted system permissions in the school environment
 
-### ⚠️ Notes
+### Notes
 - After permissions are unlocked, configurations can be set manually
 - **Visual results between SP and Unreal will never match perfectly**
 - **Always prioritize Unreal Engine's final rendered result**
 
 ---
 
-## 🧪 PBR Guide
+## PBR Guide
 
 - Training material created for artists at the beginning of the project
 - Goals:
@@ -65,7 +65,7 @@ This section includes:
 
 ---
 
-## 🛠 Maya
+## Maya
 
 ### Environment Setup
 - Maya must be launched via `.bat` file, only this version includes project-specific tools
@@ -84,7 +84,7 @@ This section includes:
 
 ---
 
-## 🎨 Substance Painter
+## Substance Painter
 
 ### Environment Workaround
 - School restrictions disabled Color Management
@@ -110,22 +110,22 @@ This section includes:
 
 ---
 
-## 📂 Docs
+## Docs
 
 该目录包含毕业项目相关的工作流文档与规范说明：
 
-### 📁 Folder Structure
+### Folder Structure
 - 为两个不同项目编写的美术资源目录结构规范
 - 内容整体相似，可作为通用参考
 
-### 📁 Naming Convention
+### Naming Convention
 - 包含三类命名规范：
   - Static Mesh
   - Skeletal Mesh
   - VFX
-- ⚠️ 其中 Skeletal Mesh 命名规范与 Gameplay 机制强相关，后续参考价值有限
+-  其中 Skeletal Mesh 命名规范与 Gameplay 机制强相关，后续参考价值有限
 
-### 📁 Mesh 相关文档
+### Mesh 相关文档
 - Mesh Guide  
 - Mesh Self-Check List  
 - Nanite 文档  
@@ -137,7 +137,7 @@ This section includes:
 
 ---
 
-## 🎨 Texture Guide
+##  Texture Guide
 
 该部分主要说明：
 
@@ -147,14 +147,14 @@ This section includes:
   - 学校锁定了系统配置权限
   - 通过 `.bat` 临时修改环境变量
 
-### ⚠️ 注意事项
+###  注意事项
 - 后期在获得权限后，可通过手动方式配置环境变量
 - **SP 与 Unreal 的显示效果不可能完全一致**
 - **一切以 Unreal Engine 最终渲染效果为准**
 
 ---
 
-## 🧪 PBR Guide
+##  PBR Guide
 
 - 项目初期为美术同学准备的培训资料
 - 目标：
@@ -164,7 +164,7 @@ This section includes:
 
 ---
 
-## 🛠 Maya
+##  Maya
 
 ### 环境说明
 - 必须通过 `.bat` 文件启动 Maya
@@ -184,7 +184,7 @@ This section includes:
 
 ---
 
-## 🎨 Substance Painter
+##  Substance Painter
 
 ### 环境问题与解决方案
 - 学校锁定了 Color Management
